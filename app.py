@@ -1,5 +1,6 @@
 import streamlit as st
 from PIL import Image
+st.set_page_config(page_title="ai_portfolio", layout="wide")
 st.markdown("""
 <style>
 @media (max-width: 768px) {
@@ -307,5 +308,6 @@ View LinkedIn Profile →
 
 </div>
 """, unsafe_allow_html=True)
+
 
 st.markdown('</div>', unsafe_allow_html=True)
